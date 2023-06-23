@@ -127,12 +127,40 @@ section{
     font-size: 12px;
 }
 
+footer{
+    border-top: gray solid;
+}
+
+.imagenes_apps{
+    display: flex;
+    justify-content:space-around;
+    gap: 1px;
+    margin: 5%;
+}
+
+.imagenes_apps img{
+    width: 10% ;
+    height: 10%;
+    border-radius: 5px;
+}
+
 .Listados_footer{
     display: flex;
     flex-direction: row;
-    margin: 10%;
+    margin: 5%;
     text-align: left;
+    gap: 5%;
 }
+
+.final{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+
+
+
 
 
 
