@@ -12,6 +12,42 @@ ul li{
 
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}
+
+a:hover{
+    color: #000;
+}
+
+#Logo_dezzer{
+    height: 10%;
+    width: 10%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    position: relative;
+}
+
+header::before{
+    content: "";
+    width: 80vw;
+    height: 50vh;
+    background: linear-gradient(125deg,rgba(241, 42, 42, .9) 25%,#bf1ceb 45%,#06ad57 65%,rgb(6, 173, 87,.6) 75%) no-repeat;
+    border-radius: 50%;
+    filter: blur(100px) opacity(.4);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    margin-top: 0;
+    z-index: -1;
+}
+
 
 .button_header{
     border-radius: 15px;
@@ -43,6 +79,11 @@ ul li{
     width: 80%;
 }
 
+.button_Cards:hover {
+    background-color: white;
+    color: #000;
+}
+
 
 h2{
     font-size: 250%;
@@ -53,31 +94,9 @@ h3{
     font-size: 200%;  
 }
 
-#Logo_dezzer{
-    height: 10%;
-    width: 10%;
-}
 
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
-    position: relative;
-}
 
-header::before{
-    content: "";
-    width: 80vw;
-    height: 50vh;
-    background: linear-gradient(125deg,rgba(241, 42, 42, .9) 25%,#bf1ceb 45%,#06ad57 65%,rgb(6, 173, 87,.6) 75%) no-repeat;
-    border-radius: 50%;
-    filter: blur(100px) opacity(.4);
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    margin-top: 0;
-    z-index: -1;
-}
+
 #Inicio_texto{
     background-color: #23232D;
     padding: 1.5%;
@@ -128,7 +147,7 @@ section{
     margin-bottom: 10px;
 }
 
-.Cards--Regalo a {
+.Cards--Regalo{
     color: white;
     margin-top: 20px;
     text-decoration: none;
