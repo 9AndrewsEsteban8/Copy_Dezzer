@@ -1,14 +1,47 @@
 body{
     background-color: #121216;
-    
+    font-family: Deezer,Arial,sans-serif;
+}
+
+
+.button_header{
+    border-radius: 15px;
+    background: transparent;
+    font-weight: bold;
+    padding: 2%;
+    color: white;
+}
+
+.button--inicio{
+    border-radius: 30px;
+    width: 12%;
+    height: 1%;
+    padding: 1%;
+}
+
+.button_header img{
+    width: 20%;
+    height: 50%;
+    margin-top: 15px;
+}
+
+.button_Cards{
+    color: white;
+    border-radius: 25px;
+    background-color: #121216;
+    font-weight: bold;
+    padding: 3%;
+    width: 80%;
 }
 
 h2{
     font-size: 250%;
 }
+
 #Logo_dezzer{
-height: 10%;
-width: 10%;
+    position: static;
+    height: 10%;
+    width: 10%;
 }
 
 header{
@@ -17,13 +50,19 @@ header{
     margin: 60px;
 
 }
+span{
+    background-color: #23232D;
+    padding: 1.5%;
+}
 
-button, h1, span{
-    border-radius: 20px;
+/* button, h1, span{
+    border-radius: 25px;
     background: transparent;
     color: white;
     font-weight: bold;
-}
+    padding: 3%;
+    width: 80%;
+} */
 
 section{
     display: flex;
