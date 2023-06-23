@@ -85,6 +85,38 @@ section{
 
 }
 
+.Cards--Regalo{
+    background: linear-gradient(to bottom, #202122 0%, #3a3b47 55.56%);
+}
+
 .Cards--family{
     background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
 }
+
+
+.Cards--oferta_socios{
+    height: 100px;
+    background: linear-gradient(to bottom, #202122 0%, #3a3b47 55.56%);
+}
+
+.Cards--oferta_socios img{
+    width: 7%;
+    height: 25%;
+    margin-bottom: 10px;
+}
+
+.Cards--Regalo a {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+section p{
+    width: 50opx;
+    height: 500px;
+    margin: 30px;
+}
+
+
+
+
