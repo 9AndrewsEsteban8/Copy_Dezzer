@@ -1,6 +1,7 @@
 body{
     background-color: #121216;
     font-family: Deezer,Arial,sans-serif;
+    color: white;
 }
 
 
@@ -34,6 +35,7 @@ body{
     width: 80%;
 }
 
+
 h2{
     font-size: 250%;
 }
@@ -55,15 +57,6 @@ span{
     padding: 1.5%;
 }
 
-/* button, h1, span{
-    border-radius: 25px;
-    background: transparent;
-    color: white;
-    font-weight: bold;
-    padding: 3%;
-    width: 80%;
-} */
-
 section{
     display: flex;
     flex-direction: column;
@@ -72,7 +65,7 @@ section{
     gap: 30px;
 }
 
-section div{
+.Cards{
     width: 500px;
     height: 500px;
     text-align: center;
@@ -85,21 +78,9 @@ section div{
     border-radius: 20px;
     font-family: Roboto,Open Sans,Arial,sans-serif;
     color: white;
+
 }
 
-.tarjeta_family{
-
-    width: 500px;
-    height: 500px;
-    text-align: center;
+.Cards--family{
     background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    border-radius: 20px;
-    font-family: Roboto,Open Sans,Arial,sans-serif;
-    color: white;
-
 }
