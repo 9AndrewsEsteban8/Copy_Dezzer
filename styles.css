@@ -4,6 +4,14 @@ body{
     color: white;
 }
 
+ul{
+    list-style: none;
+}
+ul li{
+    margin-bottom: 20px;
+
+}
+
 
 .button_header{
     border-radius: 15px;
@@ -111,11 +119,22 @@ section{
     text-decoration: none;
 }
 
-section p{
-    width: 50opx;
-    height: 500px;
-    margin: 30px;
+#Condiciones{
+    width: 500px;
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+    font-size: 12px;
 }
+
+.Listados_footer{
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    text-align: left;
+}
+
+
 
 
 
